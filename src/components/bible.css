@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&family=Sree+Krushnadevaraya&display=swap');
+.bibleBag{
+     /* Black background with opacity */
+     width:100%
+}
+
+.biblepage{
+    width:100vw;
+    height:100auto;
+    padding-top: 25px ;
+    padding-bottom: 100px;
+}
+.bibleBg img{
+    object-fit: cover;
+    width:100%;
+    height:100%
+}
+.bibleBg{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index:-10
+}
+.bgOverlay{
+    position: fixed; /* Sit on top of the page content */
+     /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(135deg,#780206,#061161); /* Black background with opacity */
+    z-index: -9; /* Specify a stack order in case you're using a different order for other elements */
+     /* Add a pointer on hover */
+    opacity: 0.2;
+}
+
+.biblebody h1{
+}
+#biblebook{
+ width:80%;
+ margin: auto;
+ margin-top: 50px;
+ 
+}
+#flipbook{
+    width:75%;
+    height: 10px;
+    
+}
+
+.hardo{
+    width:100%
+}
+
+.hardo > img{
+    object-fit: cover;
+    width:100%;
+    height:100%
+}
+
+.hardi{
+    background-color: #922222;
+    width: 100%;
+    height: 100%;
+}
+
+#flipbook .page{
+    background-color: #fff;
+    /*overflow-y: scroll;
+ */
+    border: 2px solid #808080;
+}
+
+.biblebody h1{
+    color: #fff;
+    font-family: "Girassol";
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.biblebody{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+
+#Book{
+    width: 50%;
+    background-color: #fff;
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-size: 25px;
+    padding: 3px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 7px 1px #808080;
+    margin: 7px;
+    padding-left: 13px;
+}
+
+option{
+    font-family: 'Mallanna', sans-serif;
+     font-size: 23px;
+}
+#Chapter{
+    width: 50%;
+    background-color: #fff;
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-size: 23px;
+    padding: 3px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 7px 1px #808080;
+    margin: 7px;
+    padding-left: 13px;
+}
+
+#Verse{
+    width: 50%;
+    background-color: #fff;
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-size: 23px;
+    padding: 3px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 7px 1px #808080;
+    margin: 7px;
+    padding-left: 13px;
+}
+
+.display{
+    padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-weight:500;
+    font-size: 25px;
+    background-color: #FFF;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 0px 13px 1px #fff;
+    padding-bottom: 50px;
+    text-align: left;
+    max-height:350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.display h1{
+    text-align: center;
+}
+
+.copy{
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: #fff;
+    float: right;
+    border-radius: 5px;
+    margin: 2px;
+    margin-top:-15px    
+}
+
+.copy h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+
+    #Book{
+        width: 80%;
+    }
+    
+    option{
+    }
+    #Chapter{
+        width: 80%;
+    }
+    
+    #Verse{
+        width: 80%;
+    }
+    .biblebody{
+        width: 100%;
+    }
+
+    .display{
+        width: 95%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: left;
+        padding: 20px;
+        padding-bottom: 40px;
+        max-height:500px;
+        
+    }
+    .verser{
+        
+    }
+
+}

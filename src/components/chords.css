@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Dhurjati&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@keyframes example {
+    0%   {background-image:  linear-gradient(90deg,#41295a,#2F0743);}
+    5%  {background-image:  linear-gradient(110deg,#41295a,#2F0743);}
+    10%  {background-image: linear-gradient(130deg,#41295a,#2F0743);}
+    15%  {background-image: linear-gradient(150deg,#41295a,#2F0743);}
+    20%  {background-image: linear-gradient(170deg,#41295a,#2F0743);}
+    25%  {background-image: linear-gradient(190deg,#41295a,#2F0743);}
+    30%  {background-image: linear-gradient(210deg,#41295a,#2F0743);}
+    35%  {background-image: linear-gradient(230deg,#41295a,#2F0743);}
+    40%  {background-image: linear-gradient(250deg,#41295a,#2F0743);}
+    45%  {background-image: linear-gradient(270deg,#41295a,#2F0743);}
+    50%  {background-image: linear-gradient(290deg,#41295a,#2F0743);}
+    55%  {background-image: linear-gradient(310deg,#41295a,#2F0743);}
+    60%  {background-image: linear-gradient(330deg,#41295a,#2F0743);}
+    65%  {background-image: linear-gradient(350deg,#41295a,#2F0743);}
+    70% {background-image:  linear-gradient(370deg,#41295a,#2F0743);}
+    75%  {background-image: linear-gradient(390deg,#41295a,#2F0743);}
+    80% {background-image:  linear-gradient(410deg,#41295a,#2F0743);}
+    85%  {background-image: linear-gradient(420deg,#41295a,#2F0743);}
+    90% {background-image:  linear-gradient(430deg,#41295a,#2F0743);}
+    95%  {background-image: linear-gradient(440deg,#41295a,#2F0743);}
+    100%  {background-image:linear-gradient(450deg,#41295a,#2F0743);}
+    
+}
+
+.Chordsbody{
+    background-image: linear-gradient(90deg,#EB3349,#F45C43);
+    height: auto;
+    width:100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.welcomeDiv{
+    margin-top:150px;
+    text-align: center;
+    margin-bottom: 150px;
+    color:#fff;
+    font-family: Georgia, serif
+}
+
+.welcomeDiv h1{
+    font-size: 50px;
+}
+
+.fhclive{
+    font-size: 75px;
+}
+
+
+
+.Ctitles{
+    width: 60%;
+    margin: auto;
+    height:auto;
+    padding-top: 50px;
+    box-shadow: 1px 1px 13px 1px #fff;
+    border-radius: 1px;
+    /*background-image: url("./images/lyricBag.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    background-clip: border-box;
+    */
+    background-color: white;
+    border-radius: 13px;
+    padding-bottom: 50px;
+}
+
+.Ctitle{
+    width:90%;
+    margin:auto;
+    background-image: linear-gradient(90deg,#EB3349,#F45C43);
+    text-align: center;
+    padding:7px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: 'Girassol', cursive;
+    animation-name: exampl;
+    animation-duration: 1s;
+    -moz-animation-timing-function: initial;
+    margin-bottom: 10px;
+    animation-iteration-count: infinite;
+   /* box-shadow: 1px 1px 10px 1px rgb(57, 78, 117);*/
+}
+
+.titleWrap{
+    padding: 0px 0px;
+    padding-top: 100px;
+}
+
+.teluguTitle{
+    font-family: "Dhurjati"; 
+    font-size: "33px" 
+}
+.titleLink{
+    color: #fff;
+    
+}
+
+.titleAlpha{
+    width:90%;
+    margin:auto;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Girassol', cursive;
+}
+
+.lyricNav{
+    width: 80%;
+    margin: auto;
+}
+
+.titleAlphaM{
+    position: relative;
+    float:left;
+    margin:5px;
+    font-size: 25px;
+    font-family: 'Girassol', cursive;
+}
+
+
+.chordpage{
+    height: auto;
+    width:100%;
+    padding-top: 70px;
+    background-image: linear-gradient(90deg,#EB3349,#F45C43);
+    padding-bottom: 50px;
+
+}
+.chordTitle{
+    font-family: "Dhurjati";
+    font-size: 55px; 
+    margin-bottom:40px;
+}
+
+
+
+.langButton{
+    background-color: #fff;
+    border: 2px solid #000;
+    border-bottom: 0px;
+    width: 275px;
+    margin-left:45%;
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 7px;
+    
+}
+
+.chordDiv{
+    background-color: white;
+    width:65%;
+    margin-left:25px;
+    padding:30px;
+    padding-left: 60px;
+    margin-top: 0px;
+    box-shadow: 1px 1px 13px 1px #fff;
+    font-size: 20px;
+    
+}
+
+
+
+.tools{
+    height: auto;
+    padding:25px;
+    background-color: #fff;
+    width: 25%;
+    margin:auto;
+    margin-top: 173px;
+    margin-right: 20px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    box-shadow: 1px 1px 13px 1px #808080;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.back{
+    font-family: 'Patua One', cursive;
+    margin-left:25px;
+    font-size: 25;
+    color: #fff;
+    width: 65px;
+    padding:2px;
+    padding-left: 0px;
+    border-radius: 5px;
+    background-color: rgb(26, 1, 1);
+    border: none;
+    box-shadow: 1px 1px 5px 1px #000;
+    margin-top: 13px;
+    
+}
+.chordBox{
+    font-family: 'Sree Krushnadevaraya', serif;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.chordBoxE{
+    font-family: 'Georgia', serif;
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 992px) {
+    .welcomeDiv{
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    
+    .welcomeDiv h1{
+        font-size: 25px;
+    }
+    
+    .fhclive{
+        font-size: 50px;
+    }
+
+    .Ctitles{
+        width:90%
+    }
+    .Ctitle{
+        font-size: 20px;
+    }
+    
+    .chordDiv{
+        margin: auto;
+        margin-top: 30px;
+        width:95%;
+        padding:23px;
+        
+        font-size: 18px;
+        
+    }
+
+    .tools{
+        height: auto;
+        padding:25px;
+        background-color: #fff;
+        position: unset;
+        width: 90%;
+        margin:auto;
+        margin-top: 60px;
+        box-shadow: 1px 1px 13px 1px #808080;
+        text-align: center;
+    }
+
+    .langButton{
+        background-color: #fff;
+        border: 0px;
+        width: 265px;
+        margin-left:25px;
+        margin-top: 30px;
+        margin-bottom: 7px;
+        box-shadow: 1px 1px 5px 1px #000;
+        border-radius: 7px;
+    }
+
+}

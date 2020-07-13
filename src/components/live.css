@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@keyframes example {
+    0%   {background-image: linear-gradient(90deg,#7F00FF,#E100FF);}
+    10%  {background-image: linear-gradient(130deg,#7F00FF,#E100FF);}
+    20%  {background-image: linear-gradient(170deg,#7F00FF,#E100FF);}
+    30%  {background-image: linear-gradient(210deg,#7F00FF,#E100FF);}
+    40%  {background-image: linear-gradient(250deg,#7F00FF,#E100FF);}
+    50%  {background-image: linear-gradient(290deg,#7F00FF,#E100FF);}
+    60%  {background-image: linear-gradient(330deg,#7F00FF,#E100FF);}
+    70% {background-image: linear-gradient(370deg,#7F00FF,#E100FF);}
+    80% {background-image: linear-gradient(410deg,#7F00FF,#E100FF);}
+    90% {background-image: linear-gradient(450deg,#7F00FF,#E100FF);}
+}
+@keyframes example1 {
+    0%   {background-image: linear-gradient(90deg,#7F00FF,#E100FF);}
+    10%  {background-image: linear-gradient(90deg,#E100FF,#7F00FF);}
+    20%  {background-image: linear-gradient(90deg,#7F00FF,#E100FF);}
+    30%  {background-image: linear-gradient(90deg,#E100FF,#7F00FF);}
+    40%  {background-image: linear-gradient(90deg,#7F00FF,#E100FF);}
+    50%  {background-image: linear-gradient(90deg,#E100FF,#7F00FF);}
+    60%  {background-image: linear-gradient(90deg,#7F00FF,#E100FF);}
+    70%  {background-image: linear-gradient(90deg,#E100FF,#7F00FF);}
+    80%  {background-image: linear-gradient(90deg,#7F00FF,#E100FF);}
+    90%  {background-image: linear-gradient(90deg,#E100FF,#7F00FF);}
+}
+.liveBody{
+    transition: all .2s ease-in-out;
+    background-image: linear-gradient(90deg,#7F00FF,#E100FF);
+    width:100%;
+    height:auto;
+    padding-top:60px ;    
+
+
+}
+
+.liveWrap{
+    
+}
+
+.welcomeDiv{
+    margin-top:150px;
+    text-align: center;
+    margin-bottom: 150px;
+    color:#fff;
+    font-family: Georgia, serif
+}
+
+.welcomeDiv h1{
+    font-size: 50px;
+}
+
+.fhclive{
+    font-size: 75px;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+  
+    margin-top: 60px;
+    
+}
+.video-responsive iframe{
+    left:0;
+    right:0;
+    top:0;
+    height:70%;
+    width:70%;
+    margin: auto;
+    position:absolute;
+    box-shadow: 2px 3px 13px 1px #000;
+    border-radius: 7px;
+}
+
+.videoTitle{
+    margin-top:10px;
+    text-align: center;
+    color:#000;
+    font-size: 40px;
+    font-family: 'Girassol', cursive;
+}
+
+.previousMessages{
+    margin-top: 20px;
+}
+
+.bible{
+    height:auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .video-responsive iframe{
+        height:95%;
+        width:95%;
+    }
+    .videoTitle{
+        margin-top:50px;
+        margin-bottom: -10px;
+        font-size: 25px;
+        
+    }
+
+}

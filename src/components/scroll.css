@@ -1,0 +1,28 @@
+
+.scrollTop{
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+    display: hidden;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    margin: 50px;
+    z-index: 10;
+}
+
+.scrollTop button{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: 0px;
+
+    background-color: #fff;
+}
+
+
+.scrollTop img{
+margin-bottom: 20px;
+}
